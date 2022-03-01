@@ -452,10 +452,6 @@ function addWeaponToTable(weapon, id) {
 
 
 
-
-
-
-
 function addAttribute(attribute, id) {
 
 
@@ -486,11 +482,6 @@ function addAttribute(attribute, id) {
     document.getElementById(element_ID).innerHTML=result${id};
   }
   
-
-
-
-
-
   function roll_dice_rep${id}()
   {
     rep= parseInt(document.getElementById('attribute_input_${id}').value) + parseInt(1);
@@ -511,14 +502,7 @@ function addAttribute(attribute, id) {
         result${id}+=(cnt>1)?' = <b>'+sum+'</b>':'';
         result${id}+=',  ';
     }
-
-
-
-
     console.log(this)
-
-
-
     diceModal.css('display', 'block')
   
     setTimeout(() => {
@@ -547,7 +531,6 @@ function addAttribute(attribute, id) {
       }, 100000000000)
     }, 2000)
   
-
   }
   </script>
   
@@ -580,16 +563,10 @@ function addpericia(pericia, id) {
   </div>
   
   <style>
-
   .sty${id} {
     text-align: center;
   }
-
   
-
-
-
-
   </style>
   
   `)
